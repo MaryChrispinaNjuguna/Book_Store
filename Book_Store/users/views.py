@@ -20,3 +20,7 @@ def register(request):
         form=UserRegisterForm()
     return render(request, 'register.html', {'form': form})
 
+def about(request):
+    return render(request, 'about.html')
+def contact(request):
+    return render(request, 'contact.html')
